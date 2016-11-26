@@ -1,7 +1,7 @@
 # Xubuntu 16.04 desktop for C++ development
 
-# This file was copied from Arne Mertz's repository: https://github.com/arnemertz/Xubuntu1604_DevBox
-# See his blog for more information: http://arne-mertz.de/2016/08/the-4c-development-environment/
+This file was copied from Arne Mertz's repository: https://github.com/arnemertz/Xubuntu1604_DevBox
+See his blog for more information: http://arne-mertz.de/2016/08/the-4c-development-environment/
 
 Based on a Xubuntu 16.04 installation, this Vagrant file installs the development environment for Project Tooling.
 That's currently only git and clang, more will follow.
