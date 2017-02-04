@@ -1,4 +1,4 @@
-apt-get update && apt-get -y upgrade && apt-get -y autoremove	
+apt-get update && apt-get -y apt-get -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confnew" upgrade && apt-get -y autoremove
 
 echo -----------------------------------
 echo INSTALL GIT
