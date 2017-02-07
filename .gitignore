@@ -80,5 +80,8 @@ $RECYCLE.BIN/
 
 # Build
 # =========================
-
 build/
+
+# Vagrant
+# =========================
+vagrant/.vagrant
