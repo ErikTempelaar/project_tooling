@@ -18,3 +18,10 @@ I did consider Mercurial though and it was a good second. I read that it has a c
 I used vagrant to describe the development enviroment to be able to recreate and expand it with ease. Keeping my main-system clean is also a big plus.
 Currently it's a simple Xubuntu-box, with Clang as compiler.
 See vagrant/README.md for more details.
+
+# Visual Code
+
+Visual Code as IDE was not succesful in the Mint Virtual Machine.
+It does not work.
+
+
