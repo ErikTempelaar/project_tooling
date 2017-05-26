@@ -1,0 +1,29 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "0.0.1",
+    "command": "bash",
+    "isShellCommand": true,
+    "suppressTaskName": true,
+    "args": [
+        "-c"
+    ],
+    "tasks": [
+        {
+            // Build task, Ctrl+Shift+B
+            // "g++ -g src/main.cpp ...."
+            "taskName": "build",
+            "suppressTaskName": true,
+            "isBuildCommand": true,
+            "args": ["g++ -g src/main.cpp src/greeter.cpp -o build/hello_world"]
+        },
+        {
+            // Test task, Ctrl+Shift+T
+            // TODO
+            "taskName": "test",
+            "suppressTaskName": true
+        }
+    ],
+
+    "showOutput": "always"
+}
