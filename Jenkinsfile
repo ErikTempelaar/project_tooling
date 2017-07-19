@@ -8,9 +8,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh '''chmod u+x scripts/build.sh
-cd src
-../scripts/build.sh'''
+        sh 'mkdir -p build'
       }
     }
     stage('artifacts') {
