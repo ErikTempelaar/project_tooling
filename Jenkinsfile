@@ -13,7 +13,7 @@ cd src
 ../scripts/build.sh'''
       }
     }
-    stage('') {
+    stage('artifacts') {
       steps {
         archiveArtifacts 'build/*'
       }
