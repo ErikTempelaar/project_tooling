@@ -9,8 +9,9 @@ pipeline {
     stage('build') {
       steps {
         sh 'mkdir -p build'
-        dir(path: 'src') {
+        dir(path: 'src/') {
           sh 'g++ -Wall main.cpp greeter.cpp -o ../build/hello_world'
+          sh 'ls'
         }
         
       }
